@@ -386,19 +386,23 @@ body {
   }
   .slider-txt{
     margin-left: 0;
-    width: 100%;
+    width: 70%;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .slider-txt h1{
-    font-size: 50px;
+    font-size: 25px;
   }
   .slider-txt p{
-    font-size: 16px;
+    font-size: 14px;
   }
   .btn-1{
     padding: 10px 25px;
     font-size: 14px;
+  }
+  .botones {
+    display: flex; /* Alinea los botones en un flex container */
+    margin: 70px;
   }
   .slide-img{
     width: 100%;
@@ -406,7 +410,7 @@ body {
   }
   .slider-img img{
     margin-right: 0px;
-    width: 300px;
+    width: 150px;
   }
   .swiper.horizontal > .swiper-pagination-bullets,  
   .swiper-pagination-bullets,.swiper-pagination-horizontal,  
@@ -467,7 +471,9 @@ body {
   .links h4{
     margin: 25px 0px 10px 0px;
   }
-
+  .product-txt p{
+    display: none;
+  }
 }
 
 /****************************************/
