@@ -471,8 +471,29 @@ body {
   .links h4{
     margin: 25px 0px 10px 0px;
   }
-  .product-txt p{
+  .product {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-img {
+    order: 2;
+    text-align: center;
+    margin-bottom: auto; /* Ajusta el margen inferior */
+  }
+  
+  .product-txt h4 {
+    order: 1;
+    text-align: center;
+  }
+  
+  .product-txt p {
     display: none;
+  }
+  
+  .price {
+    display: flex;
+    margin-left: 50px;
   }
 }
 
