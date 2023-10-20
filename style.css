@@ -402,7 +402,7 @@ body {
   }
   .botones {
     display: flex; /* Alinea los botones en un flex container */
-    margin: 43px;
+    margin: 35px;
   }
   .slide-img{
     width: 100%;
@@ -418,7 +418,7 @@ body {
     bottom: -7px;
   }
   .tabs{
-    padding: 50px 30px;
+    padding: 50px 100px;
   }
   .tabs label{
     width: 55%;
