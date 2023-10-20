@@ -402,7 +402,7 @@ body {
   }
   .botones {
     display: flex; /* Alinea los botones en un flex container */
-    margin: 35px;
+    margin: 30px;
   }
   .slide-img{
     width: 100%;
